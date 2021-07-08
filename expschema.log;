@@ -1,0 +1,28 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Mon Dec 14 19:04:50 2020
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  SYSTEM/******** SCHEMAS=seatbooking directory=dmpdir DUMPFILE=schema.dmp LOGFILE=expschema.log; 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 576 KB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "SEATBOOKING"."EVENTS"                      265.9 KB       6 rows
+. . exported "SEATBOOKING"."BOOKINGS"                    9.390 KB       3 rows
+. . exported "SEATBOOKING"."USERDETAILS"                 8.609 KB       5 rows
+. . exported "SEATBOOKING"."USERS"                       6.015 KB       8 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  C:\ORACLEXE\APP\TMP\SCHEMA.DMP
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 19:05:21
